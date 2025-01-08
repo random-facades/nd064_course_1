@@ -38,4 +38,3 @@ spec:
           httpGet:
             path: {{ .Values.readinessProbe.path }}
             port: {{ .Values.containerPort }}
-status: {}
